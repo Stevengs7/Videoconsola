@@ -297,19 +297,25 @@ p{
 .salida_audio{
     height: 50px;
     width: 100px;
-    border: solid;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #audio_izq{
     margin-top: 20px;
+    background-image: url(img/salida_de_audio_izquierda_Mesa\ de\ trabajo\ 1\ copia.svg);
+    background-position: right;
+    background-repeat: no-repeat;
     margin-right: 20px;
+
 }
 
 #audio_dch{
     margin-top: 20px;
     margin-left: 20px;
+    background-image: url(img/salida_de_audio_derecha_Mesa\ de\ trabajo\ 1.svg);
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 /*--------------Pantalla de visualización-------------*/
@@ -321,6 +327,7 @@ p{
     border-color: #000;
     border-width: medium;
     border-style: groove;
+    box-shadow: 10px 10px#fff inset;
 }
 
 #video{
@@ -328,5 +335,6 @@ p{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 15px;
 
 }
