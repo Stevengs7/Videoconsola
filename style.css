@@ -1,6 +1,6 @@
 *{
     margin: auto;
-    padding: auto;
+    padding: 0%;
 }
 
 :root{
@@ -14,9 +14,8 @@ p{
     color: white;
 }
 
-#main {
+.main {
     height: 100vh;
-    width: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,9 +54,9 @@ p{
 #mando_dch{
     border-radius:  0 30px 120px 0;
 }
+
 /*--------------Cruceta-------------*/
 .cruceta{
-    background-color: blue;
     color: white;
     height: auto;
     width: 100px;
@@ -66,6 +65,7 @@ p{
     margin-top: 0;
     margin-left: 0;
 }
+
 /*--------------Joystick--------------*/
 .joystick{
     height: 80px;
@@ -86,17 +86,25 @@ p{
     position: relative;
     justify-content: center;
 }
-/*--------------Botones del mando izq-------------*/
-
-#boton_unoizq{
+/*Botones superiores*/
+.superior{
+    color: white;
     background-color: #2d3142;
-    margin-top: 5px;
     height: 15px;
     width: 50px;
     border-radius: 10px;
     border-style: groove;
     text-align: center;
 }
+
+#superior_izq{
+    margin-top: 5px;
+}
+
+#superior_dch{
+    margin-top: 5px;
+}
+/*--------------Botones del mando izq-------------*/
 
 .cruceta_joy_izq{
     padding-left: 0;
@@ -146,6 +154,13 @@ p{
 } 
 
 /*--------------Botones del mando dch-------------*/
+.botones_joy_dch{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .cruceta_joy_dch{
     padding-left: 0;
     margin-left: 0;
@@ -157,7 +172,7 @@ p{
 }
 
 #contornojoy_dch{
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 0;
     height: 90px;
     width: 90px;
@@ -166,6 +181,32 @@ p{
     border-width: medium;
     border-style: groove;
     display: flex;
+}
+.botonera{
+    color: white;
+    height: 100%;
+    width: 50%;
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: 0    ;
+}
+
+#boton_doble{
+    height: 30px;
+    width: 100px;
+    justify-content: space-evenly;
+    display: flex;align-items: center;
+}
+
+.botones{
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*--------------Panel tactil-------------*/
