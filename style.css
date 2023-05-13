@@ -25,7 +25,7 @@ p{
 
 /*--------------Cuerpo y mando de la consola-------------*/
 #consola{
-    width: 75vw;
+    width: 80vw;
     height: 55vh;
     background-color: red;
     display: flex;
@@ -49,11 +49,11 @@ p{
 }
 
 #mando_izq{
-    border-radius: 30px 0 0 100px;
+    border-radius: 30px 0 0 120px;
 }
 
 #mando_dch{
-    border-radius:  0 30px 100px 0;
+    border-radius:  0 30px 120px 0;
 }
 /*--------------Cruceta-------------*/
 .cruceta{
@@ -189,6 +189,42 @@ p{
     margin-left: 20px;
 }
 /*--------------boton opciones-------------*/
+.opciones{
+    background-color: #2d3142;
+    height: 25px;
+    width: 80px;
+    border-radius: 10px;
+    border-color:  black;
+    border-width: medium;
+    border-style: groove;
+    justify-content: center;
+    align-items: center;
+}
+#boton_opciones_izq{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#boton_opciones_dch{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 /*--------------Salidas de audio-------------*/
+.salida_audio{
+    height: 50px;
+    width: 100px;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#audio_izq{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#audio_dch{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 /*--------------Pantalla de visualización-------------*/
 
