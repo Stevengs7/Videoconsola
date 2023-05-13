@@ -8,10 +8,37 @@ p{
     text-align: center;
     color: white;
 }
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*--------------Cabecera-------------*/
 /*--------------Botones y Joystick-------------*/
 /*--------------Cuerpo y mando de la consola-------------*/
+#consola{
+    width: 1000px;
+    height: 400px;
+    background-color: red;
+    display: flex;
+}
+
+#cuerpo{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3142;
+}
+
+.mando{
+    height: 100%;
+    width: 20%;
+    background-color: #2d3142;
+}
+
 /*--------------Botones del mando izq-------------*/
 /*--------------Cruceta-------------*/
 /*--------------Panel tactil-------------*/
