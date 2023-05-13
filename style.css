@@ -19,6 +19,10 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 /*--------------Cabecera-------------*/
 
@@ -26,7 +30,6 @@ p{
 #consola{
     width: 80vw;
     height: 55vh;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +73,7 @@ p{
 .joystick{
     height: 80px;
     width: 80px;
-    background-color: black;
+    background-color: #1e1e1e;
     border-radius: 50%;
     border-color: white;
     border-width: ligth;
@@ -89,7 +92,7 @@ p{
 /*Botones superiores*/
 .superior{
     color: white;
-    background-color: #2d3142;
+    background-color: #1e1e1e;
     height: 15px;
     width: 50px;
     border-radius: 10px;
@@ -129,7 +132,7 @@ p{
 }
 
 #cruceta_arriba{
-    background-color: black    ;
+    background-color: #1e1e1e;
     height: 25px;
     width: 30px;
     text-align: center;
@@ -137,7 +140,7 @@ p{
 } 
 
 #cruceta_doble{
-    background-color: black;
+    background-color: #1e1e1e;
     height: 30px;
     width: 80px;
     display: flex;
@@ -146,7 +149,7 @@ p{
 }
 
 #cruceta_abajo{
-    background-color:  black;
+    background-color:  #1e1e1e;
     height: 23px;
     width: 30px;
     text-align: center;
@@ -177,7 +180,7 @@ p{
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    border-color:  black;
+    border-color: #1e1e1e;
     border-width: medium;
     border-style: groove;
     display: flex;
@@ -200,7 +203,7 @@ p{
 
 .botones{
     color: white;
-    background-color: black;
+    background-color: #1e1e1e;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -231,7 +234,7 @@ p{
 }
 /*--------------boton opciones-------------*/
 .opciones{
-    background-color: #2d3142;
+    background-color: #1e1e1e;
     height: 25px;
     width: 80px;
     border-radius: 10px;
