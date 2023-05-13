@@ -55,7 +55,37 @@ p{
 #mando_dch{
     border-radius:  0 30px 100px 0;
 }
+/*--------------Cruceta-------------*/
+.cruceta{
+    background-color: blue;
+    color: white;
+    height: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+}
+/*--------------Joystick--------------*/
+.joystick{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50%;
+    border-color: white;
+    border-width: ligth;
+    border-style: solid;
+}
 
+#joy_izq{
+    position: relative;
+    justify-content: center;
+}
+
+#joy_dch{
+    position: relative;
+    justify-content: center;
+}
 /*--------------Botones del mando izq-------------*/
 
 #boton_unoizq{
@@ -68,6 +98,16 @@ p{
     text-align: center;
 }
 
+.cruceta_joy_izq{
+    padding-left: 0;
+    margin-left: 0;
+    margin-left: 10px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #contornojoy_izq{
     margin-right: 20px;
     margin-bottom: 0;
@@ -78,21 +118,6 @@ p{
     border-width: medium;
     border-style: groove;
     display: flex;
-    justify-content: center;
-}
-
-#joy_izq{
-    position: relative;
-
-}
-
-.cruceta_joy_izq{
-    background-color: turquoise;
-    margin-left: 10px;
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: space-evenly;
 }
 
 #cruceta_arriba{
@@ -121,28 +146,48 @@ p{
 } 
 
 /*--------------Botones del mando dch-------------*/
-/*--------------Cruceta-------------*/
-.cruceta{
-    color: white;
-    height: auto;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: blue;
-    margin-top: 0;
+.cruceta_joy_dch{
+    padding-left: 0;
     margin-left: 0;
+    margin-left: 10px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
 }
-/*--------------Joystick--------------*/
-.joystick{
-    height: 80px;
-    width: 80px;
-    background-color: black;
+
+#contornojoy_dch{
+    margin-left: 20px;
+    margin-bottom: 0;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
-    border-color: white;
-    border-width: ligth;
-    border-style: solid;
+    border-color:  black;
+    border-width: medium;
+    border-style: groove;
+    display: flex;
 }
+
 /*--------------Panel tactil-------------*/
+.tactil{
+    height: 120px;
+    width: 120px;
+    background-color: #2d3142;
+    border-radius: 10px;
+    border-color:  black;
+    border-width: medium;
+    border-style: groove;
+}
+
+#panel_izq{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#panel_dch{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 /*--------------boton opciones-------------*/
 /*--------------Salidas de audio-------------*/
 /*--------------Pantalla de visualización-------------*/
