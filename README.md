@@ -26,8 +26,8 @@ Pagina principal
 
 ## Stack
 
-<div width: 70px align="center">
-    <img src= "img/html-5.png">
+<div align="center">
+    <img src= "img/html-5.png"/>
     <img src= "img/css-3.png"/>
     <img src= "img/js.png"/>
  </div>
