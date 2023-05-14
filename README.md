@@ -6,6 +6,7 @@
     <li><a href="#objetivo-🎯">Objetivo</a></li>
     <li><a href="#sobre-el-proyecto-🔎">Sobre el proyecto</a></li>
     <li><a href="#vistas">Vistas</a></li>
+    <li><a href="#stack">Stack</a></li>
     <li><a href="#futuras-funcionalidades">Futuras funcionalidades</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ol>
