@@ -27,9 +27,9 @@ Pagina principal
 ## Stack
 
 <div align="center">
-    <img src= "https://www.flaticon.es/icono-gratis/html_1051277?term=html&page=1&position=3&origin=tag&related_id=1051277/">
-    <img src= "https://www.flaticon.es/icono-gratis/css-3_732190?term=css&page=1&position=1&origin=search&related_id=732190"/>
-    <img src= "https://www.flaticon.es/icono-gratis/js_5968292?term=js&page=1&position=3&origin=search&related_id=5968292"/>
+    <img src= "img/html-5.png">
+    <img src= "img/css-3.png"/>
+    <img src= "img/js.png"/>
  </div>
 
 ## Futuras funcionalidades
