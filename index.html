@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Mi Videoconsola</title>
   </head>
   <header>
     <div id="cabecera">
-        <audio src="audio/audio_fondo.mp3" type="audio/mp3" autoplay loop></audio>
         <div id="menu"></div>
         <div>
             <img src="img/logo_cabecera.gif" alt="gif" id="logo"/>
@@ -51,13 +51,13 @@
             <!--Pantalla de visualización-->
             <div id="cuerpo">
                 <div id="pantalla">
-                    <video src="../video/start_screen_cyber.mp4" type="video/mp4" id="video" autoplay muted loop></video>
+                    <video src="../video/start_screen_cyber.mp4" type="video/mp4" id="video" loop></video>
                 </div>
             </div>
     
             <!--Mando derecho-->
             <div class="mando" id="mando_dch">
-                <div class="superior" id="superior_dch"></div>
+                <button class="superior" id="superior_dch" onclick="mostrar(), playvid()"></button>
     
                 <!--Botonera + el Joystick-->
                 <div class="botones_joy_dch">

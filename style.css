@@ -131,6 +131,7 @@ p{
     border: #000;
     border-radius: 10px;
     border-style: groove;
+    justify-content: center;
     text-align: center;
     box-shadow:
     2px 2px 10px #000,
@@ -150,7 +151,17 @@ p{
 }
 
 #superior_dch{
+    width: 40px;
     margin-top: 5px;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+#superior_dch:hover{
+    background-color: rgb(13, 243, 13);
+    border-color:rgb(13, 243, 13);
+    cursor: pointer;
 }
 /*--------------Botones del mando izq-------------*/
 
@@ -257,8 +268,8 @@ p{
 .botones{
     color: white;
     background-color: var(--color-botones);
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -351,7 +362,6 @@ p{
     border: solid;
     border-color: #000;
     border-width: 10px;
-    box-shadow: 10px 10px#fff inset;
 }
 
 #video{
@@ -360,5 +370,5 @@ p{
     height: 100%;
     object-fit: cover;
     border: 15px;
-
+    display: none;
 }
