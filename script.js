@@ -1,10 +1,10 @@
 
 
 function mostrar(){
-   document.getElementById('video').style.display = 'block';
+   document.getElementById('myvideo').style.display = 'block';
 }
 
 function playvid(){
-    document.getElementById('video').play(),
+    document.getElementById('myvideo').play(),
     document.getElementById('superior_dch').style.backgroundColor ='rgb(13, 243, 13)';
 }
