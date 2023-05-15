@@ -6,6 +6,7 @@
     <li><a href="#objetivo-🎯">Objetivo</a></li>
     <li><a href="#sobre-el-proyecto-🔎">Sobre el proyecto</a></li>
     <li><a href="#vistas">Vistas</a></li>
+    <li><a href="#deploy">Deploy Consola</a></li>
     <li><a href="#stack">Stack</a></li>
     <li><a href="#futuras-funcionalidades">Futuras funcionalidades</a></li>
     <li><a href="#contacto">Contacto</a></li>
@@ -24,6 +25,10 @@ He decidido recrear la Steam Deck, ya que es una consola la cual la podemos comp
 
 Pagina principal</br>
 <img src="./img/captura_consola.png">
+
+## Deploy consola
+
+<a hfref="https://stevengs7.github.io/Videoconsola" target="_blanck"/>Ir a la consola</a>
 
 ## Stack
 
