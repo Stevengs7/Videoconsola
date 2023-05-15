@@ -22,7 +22,7 @@ He decidido recrear la Steam Deck, ya que es una consola la cual la podemos comp
 
 ## Vistas
 
-Pagina principal
+Pagina principal</br>
 <img src="./img/captura_consola.png">
 
 ## Stack
@@ -38,7 +38,6 @@ Pagina principal
 ✅ Visualizacion del modelo de la consola.</br>
 ⬜ Botones informativos: Te indican el nombre y la acción de cada botón en la consola.</br>
 ⬜ Mostrar distintos tipos de juegos en la pantalla.</br>
-⬜ ...
 
 ## Contacto
 
