@@ -28,7 +28,7 @@ Pagina principal</br>
 
 ## Deploy consola
 
-<a hfref="https://stevengs7.github.io/Videoconsola" target="_blanck"/>Ir a la consola</a>
+<a href="https://stevengs7.github.io/Videoconsola" target="_blank"/>Ir a la consola</a>
 
 ## Stack
 
